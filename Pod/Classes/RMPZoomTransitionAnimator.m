@@ -64,7 +64,8 @@ static const NSTimeInterval kBackwardCompleteAnimationDuration = 0.18;
     // Transition source of image to move me to add to the last
     UIImageView *sourceImageView = [self.sourceTransition transitionSourceImageView];
     [containerView addSubview:sourceImageView];
-    
+    toVC.view.frame = [transitionContext finalFrameForViewController:toVC];
+  
     if (self.goingForward) {
         [UIView animateWithDuration:kForwardAnimationDuration
                               delay:0
@@ -104,7 +105,7 @@ static const NSTimeInterval kBackwardCompleteAnimationDuration = 0.18;
                             options:UIViewAnimationOptionCurveEaseOut
                          animations:^{
                              sourceImageView.frame = [self.destinationTransition transitionDestinationImageViewFrame];
-                             alphaView.alpha = 0;
+                             alphaView.alpha = 0.0;
                          }
                          completion:^(BOOL finished) {
                              [UIView animateWithDuration:kBackwardCompleteAnimationDuration
