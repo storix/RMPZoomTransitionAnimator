@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B63A2EF2CA513778487EB1BA95B94FADF657FE94",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B63A2EF2CA513778487EB1BA95B94FADF657FE94" : 0,
+    "DEC9655C86DFC86C6614A589537F2216949D72AF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1C52BCEA-5E3F-4065-97B0-3E1795C97B54",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B63A2EF2CA513778487EB1BA95B94FADF657FE94" : "RMPZoomTransitionAnimator\/",
+    "DEC9655C86DFC86C6614A589537F2216949D72AF" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RMPZoomTransitionAnimator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/RMPZoomTransitionAnimator.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:storix\/RMPZoomTransitionAnimator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B63A2EF2CA513778487EB1BA95B94FADF657FE94"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:Storix\/giffactoryapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DEC9655C86DFC86C6614A589537F2216949D72AF"
+    }
+  ]
+}
