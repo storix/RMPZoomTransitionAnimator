@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E4194D5681A505F70E7A1BB /* libPods-RMPZoomTransitionAnimator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CBD9157286BBDB03CAFACD /* libPods-RMPZoomTransitionAnimator.a */; };
+		22ED75A37D4BDDEFBBED8C73 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ABCED9C70A18886A2F3EF1 /* libPods-Tests.a */; };
+		52F5D75EEDC5AF466A3D72EE /* libPods-RMPZoomTransitionAnimator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D35A5C5F2062B9D7AD9CC50 /* libPods-RMPZoomTransitionAnimator.a */; };
 		5347C3B91AF346FD00E99597 /* DetailPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5347C3B81AF346FD00E99597 /* DetailPadViewController.m */; };
 		53BA63051ACA7C2A0075D2AC /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BA63041ACA7C2A0075D2AC /* NavigationController.m */; };
 		53BA63081ACA8F380075D2AC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BA63071ACA8F380075D2AC /* DetailViewController.m */; };
@@ -66,7 +67,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		A18883AC8718E9313E8285EE /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B69EDB8CC7B6AC4978072E6 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,8 +80,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12FBB227FBCD0144243152E0 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1B69EDB8CC7B6AC4978072E6 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057F6E2D3E86653FB4DE5AE0 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3B4FDEBE635F3CA48361D325 /* Pods-RMPZoomTransitionAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPZoomTransitionAnimator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMPZoomTransitionAnimator/Pods-RMPZoomTransitionAnimator.debug.xcconfig"; sourceTree = "<group>"; };
+		3D35A5C5F2062B9D7AD9CC50 /* libPods-RMPZoomTransitionAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMPZoomTransitionAnimator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51ABCED9C70A18886A2F3EF1 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5347C3B71AF346FD00E99597 /* DetailPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPadViewController.h; sourceTree = "<group>"; };
 		5347C3B81AF346FD00E99597 /* DetailPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPadViewController.m; sourceTree = "<group>"; };
 		53BA63031ACA7C2A0075D2AC /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
@@ -138,7 +140,6 @@
 		53BA63661ACAB8F60075D2AC /* ImageTableModalTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableModalTransitionViewController.h; sourceTree = "<group>"; };
 		53BA63671ACAB8F60075D2AC /* ImageTableModalTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableModalTransitionViewController.m; sourceTree = "<group>"; };
 		53FF3ADD1C6F657500DD356D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RMPZoomTransitionAnimator/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		56CBD9157286BBDB03CAFACD /* libPods-RMPZoomTransitionAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMPZoomTransitionAnimator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RMPZoomTransitionAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMPZoomTransitionAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,11 +158,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		8CBB3D6A4CBE73C6F8521664 /* Pods-RMPZoomTransitionAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPZoomTransitionAnimator.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMPZoomTransitionAnimator/Pods-RMPZoomTransitionAnimator.release.xcconfig"; sourceTree = "<group>"; };
+		8286E865DC3AADF14955FA16 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		95E3251012DD574B6C61508C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		98A6BAD0A35D6C98D92DAD00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A8BE841076BCD0B291161E1C /* Pods-RMPZoomTransitionAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPZoomTransitionAnimator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMPZoomTransitionAnimator/Pods-RMPZoomTransitionAnimator.debug.xcconfig"; sourceTree = "<group>"; };
-		ECA3004637C00F5F8C4C7E84 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D031D434DB922FAD33D8C56F /* Pods-RMPZoomTransitionAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPZoomTransitionAnimator.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMPZoomTransitionAnimator/Pods-RMPZoomTransitionAnimator.release.xcconfig"; sourceTree = "<group>"; };
 		F25D41CA7355717418DEFF46 /* RMPZoomTransitionAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMPZoomTransitionAnimator.podspec; path = ../RMPZoomTransitionAnimator.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,7 +173,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0E4194D5681A505F70E7A1BB /* libPods-RMPZoomTransitionAnimator.a in Frameworks */,
+				52F5D75EEDC5AF466A3D72EE /* libPods-RMPZoomTransitionAnimator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +184,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A18883AC8718E9313E8285EE /* libPods-Tests.a in Frameworks */,
+				22ED75A37D4BDDEFBBED8C73 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				736062FF576485850A6C1826 /* Pods */,
+				A0C8688545DF4518EEC87991 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -304,8 +304,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				56CBD9157286BBDB03CAFACD /* libPods-RMPZoomTransitionAnimator.a */,
-				1B69EDB8CC7B6AC4978072E6 /* libPods-Tests.a */,
+				3D35A5C5F2062B9D7AD9CC50 /* libPods-RMPZoomTransitionAnimator.a */,
+				51ABCED9C70A18886A2F3EF1 /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -373,13 +373,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		736062FF576485850A6C1826 /* Pods */ = {
+		A0C8688545DF4518EEC87991 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A8BE841076BCD0B291161E1C /* Pods-RMPZoomTransitionAnimator.debug.xcconfig */,
-				8CBB3D6A4CBE73C6F8521664 /* Pods-RMPZoomTransitionAnimator.release.xcconfig */,
-				ECA3004637C00F5F8C4C7E84 /* Pods-Tests.debug.xcconfig */,
-				12FBB227FBCD0144243152E0 /* Pods-Tests.release.xcconfig */,
+				3B4FDEBE635F3CA48361D325 /* Pods-RMPZoomTransitionAnimator.debug.xcconfig */,
+				D031D434DB922FAD33D8C56F /* Pods-RMPZoomTransitionAnimator.release.xcconfig */,
+				8286E865DC3AADF14955FA16 /* Pods-Tests.debug.xcconfig */,
+				057F6E2D3E86653FB4DE5AE0 /* Pods-Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -391,11 +391,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "RMPZoomTransitionAnimator" */;
 			buildPhases = (
-				78286E09F3400C07A27152E9 /* Check Pods Manifest.lock */,
+				40719BE8D6E3FDE7F0B21846 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				649E154C9D6AD107BE33E7D0 /* Copy Pods Resources */,
+				B40B4C19E3D42AF0D5112EF0 /* [CP] Embed Pods Frameworks */,
+				A932722B9E04328F1FFE1017 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -410,11 +411,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				422CE02C3168DC05BAD01124 /* Check Pods Manifest.lock */,
+				E36D48DD79443D508DB54AB6 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D607A0674DDC04401BF638F0 /* Copy Pods Resources */,
+				ED7F1153A54E6EBDFB6B7BE9 /* [CP] Embed Pods Frameworks */,
+				A606C59FEDB77AEA804CA6D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -433,7 +435,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RMP;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Masato Ohshima";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -516,29 +518,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		422CE02C3168DC05BAD01124 /* Check Pods Manifest.lock */ = {
+		40719BE8D6E3FDE7F0B21846 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		649E154C9D6AD107BE33E7D0 /* Copy Pods Resources */ = {
+		A606C59FEDB77AEA804CA6D8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A932722B9E04328F1FFE1017 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,34 +563,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMPZoomTransitionAnimator/Pods-RMPZoomTransitionAnimator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		78286E09F3400C07A27152E9 /* Check Pods Manifest.lock */ = {
+		B40B4C19E3D42AF0D5112EF0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RMPZoomTransitionAnimator/Pods-RMPZoomTransitionAnimator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D607A0674DDC04401BF638F0 /* Copy Pods Resources */ = {
+		E36D48DD79443D508DB54AB6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7F1153A54E6EBDFB6B7BE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -676,14 +708,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -696,7 +733,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -716,20 +753,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -738,14 +780,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8BE841076BCD0B291161E1C /* Pods-RMPZoomTransitionAnimator.debug.xcconfig */;
+			baseConfigurationReference = 3B4FDEBE635F3CA48361D325 /* Pods-RMPZoomTransitionAnimator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMPZoomTransitionAnimator/RMPZoomTransitionAnimator-Prefix.pch";
 				INFOPLIST_FILE = "RMPZoomTransitionAnimator/RMPZoomTransitionAnimator-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -755,14 +797,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CBB3D6A4CBE73C6F8521664 /* Pods-RMPZoomTransitionAnimator.release.xcconfig */;
+			baseConfigurationReference = D031D434DB922FAD33D8C56F /* Pods-RMPZoomTransitionAnimator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMPZoomTransitionAnimator/RMPZoomTransitionAnimator-Prefix.pch";
 				INFOPLIST_FILE = "RMPZoomTransitionAnimator/RMPZoomTransitionAnimator-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -772,7 +814,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECA3004637C00F5F8C4C7E84 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 8286E865DC3AADF14955FA16 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMPZoomTransitionAnimator.app/RMPZoomTransitionAnimator";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -796,7 +838,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12FBB227FBCD0144243152E0 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 057F6E2D3E86653FB4DE5AE0 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMPZoomTransitionAnimator.app/RMPZoomTransitionAnimator";
 				FRAMEWORK_SEARCH_PATHS = (

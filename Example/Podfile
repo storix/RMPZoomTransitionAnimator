@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'RMPZoomTransitionAnimator', :exclusive => true do
+target 'RMPZoomTransitionAnimator' do
   pod "RMPZoomTransitionAnimator", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
-  pod "RMPZoomTransitionAnimator", :path => "../"
+target 'Tests' do
+  inherit! :search_paths
 
   pod 'Specta'
   pod 'Expecta'
