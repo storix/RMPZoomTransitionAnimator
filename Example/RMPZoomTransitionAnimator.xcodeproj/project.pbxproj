@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22ED75A37D4BDDEFBBED8C73 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ABCED9C70A18886A2F3EF1 /* libPods-Tests.a */; };
-		52F5D75EEDC5AF466A3D72EE /* libPods-RMPZoomTransitionAnimator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D35A5C5F2062B9D7AD9CC50 /* libPods-RMPZoomTransitionAnimator.a */; };
+		33D19A2924E3C0874DDBEE5F /* Pods_RMPZoomTransitionAnimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC008F98FFA9D4C2899F53E4 /* Pods_RMPZoomTransitionAnimator.framework */; };
 		5347C3B91AF346FD00E99597 /* DetailPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5347C3B81AF346FD00E99597 /* DetailPadViewController.m */; };
 		53BA63051ACA7C2A0075D2AC /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BA63041ACA7C2A0075D2AC /* NavigationController.m */; };
 		53BA63081ACA8F380075D2AC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BA63071ACA8F380075D2AC /* DetailViewController.m */; };
@@ -67,6 +66,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		66F54A79D6EC711CDB4E2717 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE19B4059E2B4F9BEADDBC3C /* Pods_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,8 +82,6 @@
 /* Begin PBXFileReference section */
 		057F6E2D3E86653FB4DE5AE0 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B4FDEBE635F3CA48361D325 /* Pods-RMPZoomTransitionAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPZoomTransitionAnimator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RMPZoomTransitionAnimator/Pods-RMPZoomTransitionAnimator.debug.xcconfig"; sourceTree = "<group>"; };
-		3D35A5C5F2062B9D7AD9CC50 /* libPods-RMPZoomTransitionAnimator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMPZoomTransitionAnimator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51ABCED9C70A18886A2F3EF1 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5347C3B71AF346FD00E99597 /* DetailPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPadViewController.h; sourceTree = "<group>"; };
 		5347C3B81AF346FD00E99597 /* DetailPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPadViewController.m; sourceTree = "<group>"; };
 		53BA63031ACA7C2A0075D2AC /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
@@ -161,6 +159,8 @@
 		8286E865DC3AADF14955FA16 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		95E3251012DD574B6C61508C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		98A6BAD0A35D6C98D92DAD00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BC008F98FFA9D4C2899F53E4 /* Pods_RMPZoomTransitionAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RMPZoomTransitionAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE19B4059E2B4F9BEADDBC3C /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D031D434DB922FAD33D8C56F /* Pods-RMPZoomTransitionAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMPZoomTransitionAnimator.release.xcconfig"; path = "Pods/Target Support Files/Pods-RMPZoomTransitionAnimator/Pods-RMPZoomTransitionAnimator.release.xcconfig"; sourceTree = "<group>"; };
 		F25D41CA7355717418DEFF46 /* RMPZoomTransitionAnimator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RMPZoomTransitionAnimator.podspec; path = ../RMPZoomTransitionAnimator.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,7 +173,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				52F5D75EEDC5AF466A3D72EE /* libPods-RMPZoomTransitionAnimator.a in Frameworks */,
+				33D19A2924E3C0874DDBEE5F /* Pods_RMPZoomTransitionAnimator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +184,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				22ED75A37D4BDDEFBBED8C73 /* libPods-Tests.a in Frameworks */,
+				66F54A79D6EC711CDB4E2717 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,8 +304,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3D35A5C5F2062B9D7AD9CC50 /* libPods-RMPZoomTransitionAnimator.a */,
-				51ABCED9C70A18886A2F3EF1 /* libPods-Tests.a */,
+				BC008F98FFA9D4C2899F53E4 /* Pods_RMPZoomTransitionAnimator.framework */,
+				CE19B4059E2B4F9BEADDBC3C /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
