@@ -23,6 +23,8 @@
 @implementation RMPZoomTransitionAnimator
 
 // constants for transition animation
+// This animation duration is required to fix transiton on iOS 10
+static const NSTimeInterval kInitialAnimationDuration         = 0.1;
 static const NSTimeInterval kForwardAnimationDuration         = 0.3;
 static const NSTimeInterval kForwardCompleteAnimationDuration = 0.2;
 static const NSTimeInterval kBackwardAnimationDuration         = 0.25;
@@ -33,9 +35,9 @@ static const NSTimeInterval kBackwardCompleteAnimationDuration = 0.18;
 - (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext
 {
     if (self.goingForward) {
-        return kForwardAnimationDuration + kForwardCompleteAnimationDuration;
+      return kForwardAnimationDuration + kForwardCompleteAnimationDuration + kInitialAnimationDuration;
     } else {
-        return kBackwardAnimationDuration + kBackwardCompleteAnimationDuration;
+      return kBackwardAnimationDuration + kBackwardCompleteAnimationDuration + kInitialAnimationDuration;
     }
 }
 
@@ -51,8 +53,9 @@ static const NSTimeInterval kBackwardCompleteAnimationDuration = 0.18;
     [containerView addSubview:toView];
 
     CGRect toViewFinalFrame = [transitionContext finalFrameForViewController:toVC];
+    toView.frame = toViewFinalFrame;
     fromView.frame = [transitionContext initialFrameForViewController:fromVC];
-
+  
     // Without animation when you have not confirm the protocol
     Protocol *animating = @protocol(RMPZoomTransitionAnimating);
     BOOL doesNotConfirmProtocol = ![self.sourceTransition conformsToProtocol:animating] || ![self.destinationTransition conformsToProtocol:animating];
@@ -72,39 +75,52 @@ static const NSTimeInterval kBackwardCompleteAnimationDuration = 0.18;
     [fromVC beginAppearanceTransition:NO animated:YES];
     [toVC beginAppearanceTransition:YES animated:YES];
 
-    [UIView animateWithDuration:self.goingForward ? kForwardAnimationDuration : kBackwardAnimationDuration
+    [UIView animateWithDuration:kInitialAnimationDuration
                           delay:0
-                        options:UIViewAnimationOptionCurveEaseOut
+                        options:nil
                      animations:^{
-                         sourceImageView.frame = [self.destinationTransition transitionDestinationImageViewFrame];
-                         sourceImageView.transform = self.goingForward ? CGAffineTransformMakeScale(1.02, 1.02) : CGAffineTransformIdentity;
-                         alphaView.alpha = self.goingForward ? 0.9f : 0.0f;
-                         toView.frame = toViewFinalFrame;
-
+                       // The empty block which is used to initialize the animation transition.
+                       // Note: required to fix rotation bug on iOS 10.
                      }
                      completion:^(BOOL finished) {
-                         [UIView animateWithDuration:self.goingForward ? kForwardAnimationDuration : kBackwardAnimationDuration
-                                               delay:0
-                                             options:UIViewAnimationOptionCurveEaseOut
-                                          animations:^{
-                                              alphaView.alpha = 0.0;
-                                              sourceImageView.transform = CGAffineTransformIdentity;
-                                          }
-                                          completion:^(BOOL finished) {
-                                              if ([self.destinationTransition conformsToProtocol:@protocol(RMPZoomTransitionAnimating)] &&
-                                                      [self.destinationTransition respondsToSelector:@selector(zoomTransitionAnimator:didCompleteTransition:animatingSourceImageView:)]) {
-                                                  [self.destinationTransition zoomTransitionAnimator:self
-                                                                               didCompleteTransition:![transitionContext transitionWasCancelled]
-                                                                            animatingSourceImageView:sourceImageView];
-                                              }
-
-                                              [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
-                                              // Remove the views from superviews to release the references
-                                              [alphaView removeFromSuperview];
-                                              [sourceImageView removeFromSuperview];
-                                              [fromVC endAppearanceTransition];
-                                              [toVC endAppearanceTransition];
-                                          }];
+                       
+                       [UIView animateWithDuration:self.goingForward ? kForwardAnimationDuration : kBackwardAnimationDuration
+                                             delay:0
+                                           options:UIViewAnimationOptionCurveEaseOut
+                                        animations:^{
+                                          
+                                          sourceImageView.frame = [self.destinationTransition transitionDestinationImageViewFrame];
+                                          sourceImageView.transform = self.goingForward ? CGAffineTransformMakeScale(1.02, 1.02) : CGAffineTransformIdentity;
+                                          alphaView.alpha = self.goingForward ? 0.9f : 0.0f;
+                                          toView.frame = toViewFinalFrame;
+                                          
+                                        }
+                                        completion:^(BOOL finished) {
+                                          
+                                          [UIView animateWithDuration:self.goingForward ? kForwardCompleteAnimationDuration : kBackwardCompleteAnimationDuration
+                                                                delay:0
+                                                              options:UIViewAnimationOptionCurveEaseOut
+                                                           animations:^{
+                                                             alphaView.alpha = 0.0;
+                                                             sourceImageView.transform = CGAffineTransformIdentity;
+                                                           }
+                                                           completion:^(BOOL finished) {
+                                                             if ([self.destinationTransition conformsToProtocol:@protocol(RMPZoomTransitionAnimating)] &&
+                                                                 [self.destinationTransition respondsToSelector:@selector(zoomTransitionAnimator:didCompleteTransition:animatingSourceImageView:)]) {
+                                                               [self.destinationTransition zoomTransitionAnimator:self
+                                                                                            didCompleteTransition:![transitionContext transitionWasCancelled]
+                                                                                         animatingSourceImageView:sourceImageView];
+                                                             }
+                                                             
+                                                             [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+                                                             
+                                                             // Remove the views from superviews to release the references
+                                                             [alphaView removeFromSuperview];
+                                                             [sourceImageView removeFromSuperview];
+                                                             [fromVC endAppearanceTransition];
+                                                             [toVC endAppearanceTransition];
+                                                           }];
+                                        }];
                      }];
 }
 
