@@ -77,7 +77,7 @@ static const NSTimeInterval kBackwardCompleteAnimationDuration = 0.18;
 
     [UIView animateWithDuration:kInitialAnimationDuration
                           delay:0
-                        options:nil
+                        options:0
                      animations:^{
                        // The empty block which is used to initialize the animation transition.
                        // Note: required to fix rotation bug on iOS 10.
